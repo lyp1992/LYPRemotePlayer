@@ -1,0 +1,2 @@
+# LYPRemotePlayer
+在AVPayer的基础上封装了一个边下边播的音频播放器
