@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7149C2E2175D37800FD06F2 /* LYPResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D7149C2D2175D37800FD06F2 /* LYPResourceLoader.m */; };
+		D7149C312175D38E00FD06F2 /* NSURL+LYPCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = D7149C302175D38E00FD06F2 /* NSURL+LYPCustom.m */; };
+		D769B5DB216F4E0000F0499D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B5DA216F4E0000F0499D /* AppDelegate.m */; };
+		D769B5DE216F4E0000F0499D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B5DD216F4E0000F0499D /* ViewController.m */; };
+		D769B5E1216F4E0000F0499D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769B5DF216F4E0000F0499D /* Main.storyboard */; };
+		D769B5E3216F4E0100F0499D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D769B5E2216F4E0100F0499D /* Assets.xcassets */; };
+		D769B5E6216F4E0100F0499D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769B5E4216F4E0100F0499D /* LaunchScreen.storyboard */; };
+		D769B5E9216F4E0100F0499D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B5E8216F4E0100F0499D /* main.m */; };
+		D769B5F3216F4E0100F0499D /* LYPRemotePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B5F2216F4E0100F0499D /* LYPRemotePlayerTests.m */; };
+		D769B5FE216F4E0100F0499D /* LYPRemotePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B5FD216F4E0100F0499D /* LYPRemotePlayerUITests.m */; };
+		D769B60E216F4F6C00F0499D /* LYPRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D769B60D216F4F6C00F0499D /* LYPRemotePlayer.m */; };
+		D7B0391B2179BA2500358C21 /* LYPRemotePlayerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B0391A2179BA2500358C21 /* LYPRemotePlayerDownloader.m */; };
+		D7B0391E2179BA3700358C21 /* LYPRemotePlayerAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B0391D2179BA3700358C21 /* LYPRemotePlayerAudioFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D769B5EF216F4E0100F0499D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D769B5CE216F4E0000F0499D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D769B5D5216F4E0000F0499D;
+			remoteInfo = LYPRemotePlayer;
+		};
+		D769B5FA216F4E0100F0499D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D769B5CE216F4E0000F0499D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D769B5D5216F4E0000F0499D;
+			remoteInfo = LYPRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7149C2C2175D37800FD06F2 /* LYPResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPResourceLoader.h; sourceTree = "<group>"; };
+		D7149C2D2175D37800FD06F2 /* LYPResourceLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPResourceLoader.m; sourceTree = "<group>"; };
+		D7149C2F2175D38E00FD06F2 /* NSURL+LYPCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+LYPCustom.h"; sourceTree = "<group>"; };
+		D7149C302175D38E00FD06F2 /* NSURL+LYPCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LYPCustom.m"; sourceTree = "<group>"; };
+		D769B5D6216F4E0000F0499D /* LYPRemotePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPRemotePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769B5D9216F4E0000F0499D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D769B5DA216F4E0000F0499D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D769B5DC216F4E0000F0499D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D769B5DD216F4E0000F0499D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D769B5E0216F4E0000F0499D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D769B5E2216F4E0100F0499D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D769B5E5216F4E0100F0499D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D769B5E7216F4E0100F0499D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D769B5E8216F4E0100F0499D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D769B5EE216F4E0100F0499D /* LYPRemotePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPRemotePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769B5F2216F4E0100F0499D /* LYPRemotePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPRemotePlayerTests.m; sourceTree = "<group>"; };
+		D769B5F4216F4E0100F0499D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D769B5F9216F4E0100F0499D /* LYPRemotePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPRemotePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769B5FD216F4E0100F0499D /* LYPRemotePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPRemotePlayerUITests.m; sourceTree = "<group>"; };
+		D769B5FF216F4E0100F0499D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D769B60C216F4F6C00F0499D /* LYPRemotePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPRemotePlayer.h; sourceTree = "<group>"; };
+		D769B60D216F4F6C00F0499D /* LYPRemotePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPRemotePlayer.m; sourceTree = "<group>"; };
+		D7B039192179BA2500358C21 /* LYPRemotePlayerDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPRemotePlayerDownloader.h; sourceTree = "<group>"; };
+		D7B0391A2179BA2500358C21 /* LYPRemotePlayerDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPRemotePlayerDownloader.m; sourceTree = "<group>"; };
+		D7B0391C2179BA3700358C21 /* LYPRemotePlayerAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPRemotePlayerAudioFile.h; sourceTree = "<group>"; };
+		D7B0391D2179BA3700358C21 /* LYPRemotePlayerAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPRemotePlayerAudioFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D769B5D3216F4E0000F0499D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5EB216F4E0100F0499D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5F6216F4E0100F0499D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D769B5CD216F4E0000F0499D = {
+			isa = PBXGroup;
+			children = (
+				D769B5D8216F4E0000F0499D /* LYPRemotePlayer */,
+				D769B5F1216F4E0100F0499D /* LYPRemotePlayerTests */,
+				D769B5FC216F4E0100F0499D /* LYPRemotePlayerUITests */,
+				D769B5D7216F4E0000F0499D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D769B5D7216F4E0000F0499D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D769B5D6216F4E0000F0499D /* LYPRemotePlayer.app */,
+				D769B5EE216F4E0100F0499D /* LYPRemotePlayerTests.xctest */,
+				D769B5F9216F4E0100F0499D /* LYPRemotePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D769B5D8216F4E0000F0499D /* LYPRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D769B60B216F4EED00F0499D /* RemotePlayerClasses */,
+				D769B5D9216F4E0000F0499D /* AppDelegate.h */,
+				D769B5DA216F4E0000F0499D /* AppDelegate.m */,
+				D769B5DC216F4E0000F0499D /* ViewController.h */,
+				D769B5DD216F4E0000F0499D /* ViewController.m */,
+				D769B5DF216F4E0000F0499D /* Main.storyboard */,
+				D769B5E2216F4E0100F0499D /* Assets.xcassets */,
+				D769B5E4216F4E0100F0499D /* LaunchScreen.storyboard */,
+				D769B5E7216F4E0100F0499D /* Info.plist */,
+				D769B5E8216F4E0100F0499D /* main.m */,
+			);
+			path = LYPRemotePlayer;
+			sourceTree = "<group>";
+		};
+		D769B5F1216F4E0100F0499D /* LYPRemotePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D769B5F2216F4E0100F0499D /* LYPRemotePlayerTests.m */,
+				D769B5F4216F4E0100F0499D /* Info.plist */,
+			);
+			path = LYPRemotePlayerTests;
+			sourceTree = "<group>";
+		};
+		D769B5FC216F4E0100F0499D /* LYPRemotePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D769B5FD216F4E0100F0499D /* LYPRemotePlayerUITests.m */,
+				D769B5FF216F4E0100F0499D /* Info.plist */,
+			);
+			path = LYPRemotePlayerUITests;
+			sourceTree = "<group>";
+		};
+		D769B60B216F4EED00F0499D /* RemotePlayerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D769B60C216F4F6C00F0499D /* LYPRemotePlayer.h */,
+				D769B60D216F4F6C00F0499D /* LYPRemotePlayer.m */,
+				D7149C2C2175D37800FD06F2 /* LYPResourceLoader.h */,
+				D7149C2D2175D37800FD06F2 /* LYPResourceLoader.m */,
+				D7B039192179BA2500358C21 /* LYPRemotePlayerDownloader.h */,
+				D7B0391A2179BA2500358C21 /* LYPRemotePlayerDownloader.m */,
+				D7B0391C2179BA3700358C21 /* LYPRemotePlayerAudioFile.h */,
+				D7B0391D2179BA3700358C21 /* LYPRemotePlayerAudioFile.m */,
+				D7149C2F2175D38E00FD06F2 /* NSURL+LYPCustom.h */,
+				D7149C302175D38E00FD06F2 /* NSURL+LYPCustom.m */,
+			);
+			path = RemotePlayerClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D769B5D5216F4E0000F0499D /* LYPRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D769B602216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayer" */;
+			buildPhases = (
+				D769B5D2216F4E0000F0499D /* Sources */,
+				D769B5D3216F4E0000F0499D /* Frameworks */,
+				D769B5D4216F4E0000F0499D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPRemotePlayer;
+			productName = LYPRemotePlayer;
+			productReference = D769B5D6216F4E0000F0499D /* LYPRemotePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D769B5ED216F4E0100F0499D /* LYPRemotePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D769B605216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayerTests" */;
+			buildPhases = (
+				D769B5EA216F4E0100F0499D /* Sources */,
+				D769B5EB216F4E0100F0499D /* Frameworks */,
+				D769B5EC216F4E0100F0499D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D769B5F0216F4E0100F0499D /* PBXTargetDependency */,
+			);
+			name = LYPRemotePlayerTests;
+			productName = LYPRemotePlayerTests;
+			productReference = D769B5EE216F4E0100F0499D /* LYPRemotePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D769B5F8216F4E0100F0499D /* LYPRemotePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D769B608216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayerUITests" */;
+			buildPhases = (
+				D769B5F5216F4E0100F0499D /* Sources */,
+				D769B5F6216F4E0100F0499D /* Frameworks */,
+				D769B5F7216F4E0100F0499D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D769B5FB216F4E0100F0499D /* PBXTargetDependency */,
+			);
+			name = LYPRemotePlayerUITests;
+			productName = LYPRemotePlayerUITests;
+			productReference = D769B5F9216F4E0100F0499D /* LYPRemotePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D769B5CE216F4E0000F0499D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYP;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = laiyongpeng;
+				TargetAttributes = {
+					D769B5D5216F4E0000F0499D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D769B5ED216F4E0100F0499D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D769B5D5216F4E0000F0499D;
+					};
+					D769B5F8216F4E0100F0499D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D769B5D5216F4E0000F0499D;
+					};
+				};
+			};
+			buildConfigurationList = D769B5D1216F4E0000F0499D /* Build configuration list for PBXProject "LYPRemotePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D769B5CD216F4E0000F0499D;
+			productRefGroup = D769B5D7216F4E0000F0499D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D769B5D5216F4E0000F0499D /* LYPRemotePlayer */,
+				D769B5ED216F4E0100F0499D /* LYPRemotePlayerTests */,
+				D769B5F8216F4E0100F0499D /* LYPRemotePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D769B5D4216F4E0000F0499D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769B5E6216F4E0100F0499D /* LaunchScreen.storyboard in Resources */,
+				D769B5E3216F4E0100F0499D /* Assets.xcassets in Resources */,
+				D769B5E1216F4E0000F0499D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5EC216F4E0100F0499D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5F7216F4E0100F0499D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D769B5D2216F4E0000F0499D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769B5DE216F4E0000F0499D /* ViewController.m in Sources */,
+				D769B5E9216F4E0100F0499D /* main.m in Sources */,
+				D769B60E216F4F6C00F0499D /* LYPRemotePlayer.m in Sources */,
+				D7149C2E2175D37800FD06F2 /* LYPResourceLoader.m in Sources */,
+				D769B5DB216F4E0000F0499D /* AppDelegate.m in Sources */,
+				D7B0391E2179BA3700358C21 /* LYPRemotePlayerAudioFile.m in Sources */,
+				D7149C312175D38E00FD06F2 /* NSURL+LYPCustom.m in Sources */,
+				D7B0391B2179BA2500358C21 /* LYPRemotePlayerDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5EA216F4E0100F0499D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769B5F3216F4E0100F0499D /* LYPRemotePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D769B5F5216F4E0100F0499D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769B5FE216F4E0100F0499D /* LYPRemotePlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D769B5F0216F4E0100F0499D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D769B5D5216F4E0000F0499D /* LYPRemotePlayer */;
+			targetProxy = D769B5EF216F4E0100F0499D /* PBXContainerItemProxy */;
+		};
+		D769B5FB216F4E0100F0499D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D769B5D5216F4E0000F0499D /* LYPRemotePlayer */;
+			targetProxy = D769B5FA216F4E0100F0499D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D769B5DF216F4E0000F0499D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769B5E0216F4E0000F0499D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D769B5E4216F4E0100F0499D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769B5E5216F4E0100F0499D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D769B600216F4E0100F0499D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D769B601216F4E0100F0499D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D769B603216F4E0100F0499D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D769B604216F4E0100F0499D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D769B606216F4E0100F0499D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPRemotePlayer.app/LYPRemotePlayer";
+			};
+			name = Debug;
+		};
+		D769B607216F4E0100F0499D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPRemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPRemotePlayer.app/LYPRemotePlayer";
+			};
+			name = Release;
+		};
+		D769B609216F4E0100F0499D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPRemotePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPRemotePlayer;
+			};
+			name = Debug;
+		};
+		D769B60A216F4E0100F0499D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DN43523GZM;
+				INFOPLIST_FILE = LYPRemotePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = animal.LYPRemotePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYPRemotePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D769B5D1216F4E0000F0499D /* Build configuration list for PBXProject "LYPRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769B600216F4E0100F0499D /* Debug */,
+				D769B601216F4E0100F0499D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D769B602216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769B603216F4E0100F0499D /* Debug */,
+				D769B604216F4E0100F0499D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D769B605216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769B606216F4E0100F0499D /* Debug */,
+				D769B607216F4E0100F0499D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D769B608216F4E0100F0499D /* Build configuration list for PBXNativeTarget "LYPRemotePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769B609216F4E0100F0499D /* Debug */,
+				D769B60A216F4E0100F0499D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D769B5CE216F4E0000F0499D /* Project object */;
+}
